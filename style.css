@@ -193,3 +193,9 @@ ul {
   border-radius: 8px;
   padding: 7px 32px;
 }
+
+.footer {
+  color: #F9FAF8;
+  padding: 32px 0;
+  font-size: 18px;
+}
