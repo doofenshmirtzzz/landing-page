@@ -135,3 +135,25 @@ ul {
   color: #777;
   text-align: center;
 }
+
+.blockquote {
+  height: 500px;
+  flex-direction: column;
+  padding: 0 30%;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0;
+}
+
+.citation {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1F2937;
+  margin: 0;
+  align-self: flex-end;
+}
