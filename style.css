@@ -1,0 +1,99 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.dark {
+  background: #1F2937;
+}
+
+.light {
+  background: #fff;
+}
+
+.gray {
+  background: #E5E7EB;
+}
+
+.header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.menu a{
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  gap: 28px;
+}
+
+.hero {
+  height: 500px;
+  gap: 10%;
+}
+
+.hero-left, .hero-right {
+  width: 45%;
+}
+
+.hero-right {
+  background: #E5E7EB66;
+  color: white;
+  height: 250px;
+  align-content: center;
+  text-align: center;
+}
+
+.hero-title {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-subtitle {
+  margin: 0 0 16px 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #E5E7EB;
+}
+
+.hero-sign-up {
+  background: #3882F6;
+  color: #F9FAF8;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 32px;
+}
